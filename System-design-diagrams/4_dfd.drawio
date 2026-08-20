@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Data Flow Diagram Level 0" id="Data_Flow_Diagram_Level_0">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n3" value="Public User" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="60" width="160" height="60" as="geometry" /></mxCell>
+<mxCell id="n4" value="Advisor" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="260" width="160" height="60" as="geometry" /></mxCell>
+<mxCell id="n5" value="Admin" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="460" width="160" height="60" as="geometry" /></mxCell>
+<mxCell id="n6" value="0.0&#10;OS Readiness&#10;Diagnostic System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;arcSize=50;" vertex="1" parent="1"><mxGeometry x="380" y="220" width="260" height="120" as="geometry" /></mxCell>
+<mxCell id="n7" value="Booking Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="780" y="120" width="200" height="60" as="geometry" /></mxCell>
+<mxCell id="n8" value="Email Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="780" y="320" width="200" height="60" as="geometry" /></mxCell>
+<mxCell id="n9" value="Diagnostic Responses /&#10;Organisation Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n3" target="n6"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n10" value="Diagnostic Results" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n3"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n11" value="Notes / Status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n4" target="n6"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n12" value="Results / Risk Flags" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n13" value="Questions / Weights / Rules" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n14" value="Analytics / Audit Info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n5"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n15" value="Booking Information" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n16" value="Results Email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n8"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

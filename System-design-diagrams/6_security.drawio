@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Security Architecture" id="Security_Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n3" value="Public User" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="20" y="20" width="160" height="40" as="geometry" /></mxCell>
+<mxCell id="n4" value="Registered User" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="20" y="90" width="160" height="40" as="geometry" /></mxCell>
+<mxCell id="n5" value="Advisor" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="20" y="160" width="160" height="40" as="geometry" /></mxCell>
+<mxCell id="n6" value="Admin" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="20" y="230" width="160" height="40" as="geometry" /></mxCell>
+<mxCell id="n7" value="HTTPS / TLS&#10;Secure Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="180" y="320" width="240" height="60" as="geometry" /></mxCell>
+<mxCell id="n8" value="Authentication&#10;(Login, Session Management)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="160" y="420" width="280" height="60" as="geometry" /></mxCell>
+<mxCell id="n9" value="Authorization / RBAC&#10;(Public, Registered, Advisor, Admin)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="140" y="520" width="320" height="60" as="geometry" /></mxCell>
+<mxCell id="n10" value="Application Security&#10;(Input Validation, Secure API,&#10;Error Handling, Rate Limiting)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="130" y="620" width="340" height="80" as="geometry" /></mxCell>
+<mxCell id="n11" value="Database Security&#10;(Access Control, Encryption, Backups)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="130" y="740" width="340" height="60" as="geometry" /></mxCell>
+<mxCell id="n12" value="Audit Logs&#10;(Advisor Access, Admin Changes,&#10;Security Events)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="130" y="840" width="340" height="70" as="geometry" /></mxCell>
+<mxCell id="n13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n3" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n4" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n5" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n7" target="n8"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n8" target="n9"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n9" target="n10"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n10" target="n11"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="n21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="n11" target="n12"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
